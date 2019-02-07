@@ -1,0 +1,8 @@
+/*
+  Compile errors: Cannot implicitly cast from U8 to S8 at 7:5
+  Output:
+  Returns: 0
+ */
+def func() -> S8 {
+    200
+}

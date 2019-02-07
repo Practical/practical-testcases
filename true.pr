@@ -1,0 +1,8 @@
+/*
+  Compile errors:
+  Output:
+  Returns: 0
+ */
+def main() -> S32 {
+    0
+}

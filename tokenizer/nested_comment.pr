@@ -1,0 +1,14 @@
+/*
+  Level one nesting.
+  /*
+    Level two nesting.
+    /*
+      Level three nesting.
+    */
+    
+    === illegal token to make sure the tokenizer is skipping here.
+  */
+  
+   ====
+   Exit level 1
+*/

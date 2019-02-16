@@ -1,0 +1,9 @@
+/*
+  Compile errors:
+  Output:
+  Returns: 17
+ */
+def main() -> S32 {
+    def var : S32 = 17;
+    var
+}

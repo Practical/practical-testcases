@@ -1,0 +1,13 @@
+/*
+  Compile errors:
+  Output:
+  Returns: 17
+ */
+def func(var: U8) -> S32 {
+    var
+}
+
+def main() -> S32 {
+    def var : U8 = 17;
+    func(var)
+}

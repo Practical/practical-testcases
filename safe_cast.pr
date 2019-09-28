@@ -1,0 +1,6 @@
+def main() -> S32 {
+    def var : S8 = expect!S16(0-128);
+    def var2 : S8 = expect!S16(1-129);
+
+    var
+}

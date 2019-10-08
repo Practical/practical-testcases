@@ -1,5 +1,6 @@
 def main() -> S32 {
-    def var : S8 = 1-129;
+    def var : S8 = expect!S16(0-128); // Compiles because of VRP
+    def var2 : S8 = expect!S16(0-129); // Does not compile
 
     var
 }

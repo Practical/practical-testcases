@@ -1,0 +1,7 @@
+def func(arg : Bool) -> Bool {
+    def yes : Bool = true;
+    def no : Bool = false;
+    def maybe : Bool = arg;
+
+    arg
+}

@@ -1,0 +1,6 @@
+def meaningOfLife() -> U32 {
+    if ( true )
+        17;
+    
+    0
+}

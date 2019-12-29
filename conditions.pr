@@ -2,5 +2,9 @@ def meaningOfLife() -> U32 {
     if ( true )
         17;
     
-    0
+    if( false ) {
+        0
+    } else {
+        12
+    }
 }

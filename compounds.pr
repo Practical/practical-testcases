@@ -1,0 +1,16 @@
+def funcCall() -> Void {
+    {
+        funcCall();
+        funcCall();
+    }
+
+    funcCall();
+}
+
+def main() -> S32 {
+    {
+        funcCall();
+
+        12
+    }
+}

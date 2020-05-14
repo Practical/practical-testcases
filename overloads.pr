@@ -3,8 +3,12 @@
   Output:
   Returns: 17
  */
-def func(var: U8) -> S16 {
+def func(var: U8) -> S32 {
     var
+}
+
+def func(var: U8, coo: S16) -> S16 {
+    0
 }
 
 def main() -> S32 {

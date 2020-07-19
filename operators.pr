@@ -8,5 +8,10 @@ def op2() -> S8 {
 
 def main() -> S32 {
     def var1 : U8 = expect!S32(35+4);
+    //def err1 : U8 = expect!S32(127+127+5);
+    def var2 : S8 = expect!U8(35+4);
+    //def err2 : S8 = expect!U8(125+4);
+    def overflow2 : S8 = expect!U8(254+9+120);
+    //def overflowError2 : S8 = expect!U8(254+9+121);
     347 + op1() + op2()
 }

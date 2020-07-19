@@ -7,5 +7,6 @@ def op2() -> S8 {
 }
 
 def main() -> S32 {
+    def var1 : U8 = expect!S32(35+4);
     347 + op1() + op2()
 }

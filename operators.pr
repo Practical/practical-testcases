@@ -7,11 +7,20 @@ def op2() -> S8 {
 }
 
 def main() -> S32 {
-    def var1 : U8 = expect!S32(35+4);
-    //def err1 : U8 = expect!S32(127+127+5);
-    def var2 : S8 = expect!U8(35+4);
-    //def err2 : S8 = expect!U8(125+4);
-    def overflow2 : S8 = expect!U8(254+9+120);
+
+    // Binary plus
+    def signedPlus : U8 = expect!S32(35+4);
+    //def err1_1 : U8 = expect!S32(127+127+5);
+    def unsignedPlus : S8 = expect!U8(35+4);
+    //def err1_2 : S8 = expect!U8(125+4);
+    def unsignedPlusOverflow : S8 = expect!U8(254+9+120);
     //def overflowError2 : S8 = expect!U8(254+9+121);
+
+    // Binary minus
+    def unsignedMinus : U8 = expect!U16(355 - 100);
+    //def err2_1 : U8 = expect!U16(355 - 99);
+    def unsignedMinusOverflow : U8 = expect!U16(100-355-65026);
+    //def unsignedMinusOverflow_err : U8 = expect!U16(100-355-65025);
+
     347 + op1() + op2()
 }

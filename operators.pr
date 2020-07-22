@@ -21,6 +21,8 @@ def main() -> S32 {
     //def err2_1 : U8 = expect!U16(355 - 99);
     def unsignedMinusOverflow : U8 = expect!U16(100-355-65026);
     //def unsignedMinusOverflow_err : U8 = expect!U16(100-355-65025);
+    def signedMinus : U8 = expect!S16( 0 - 100 - (0-355) );
+    // def signedMinusOverflow : U8 = expect!S16( 0 - 100 - (0-356) );
 
     347 + op1() + op2()
 }

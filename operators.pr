@@ -24,5 +24,10 @@ def main() -> S32 {
     def signedMinus : U8 = expect!S16( 0 - 100 - (0-355) );
     // def signedMinusOverflow : U8 = expect!S16( 0 - 100 - (0-356) );
 
+    // Binary multiply
+    def unsignedMultiply : U8 = expect!U16( 16 * 15 + 15 );
+    // def unsignedMultiplyOverflow : U8 = expect!U16( 16 * 15 + 16 );
+    def signedMultiply : U8 = expect!S16( 16 * 15 + 15 );
+
     347 + op1() + op2()
 }

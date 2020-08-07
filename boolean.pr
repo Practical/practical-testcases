@@ -5,3 +5,13 @@ def func(arg : Bool) -> Bool {
 
     arg
 }
+
+def u32Comparisons( a : U32, b : U32 ) -> Bool {
+    a == b
+}
+
+def u16Comparisons( a: U16, b: U16 ) -> Bool {
+    a==b;
+    expect!U32(a)==b;
+    expect!U32(a+1)==b
+}

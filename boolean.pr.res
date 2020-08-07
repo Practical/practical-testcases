@@ -36,4 +36,22 @@ Start module Module: ModuleId(1) at file.pr:1:1
     ExpressionId(30) ExpressionId(27) == ExpressionId(29) : Bool
     Function returning ExpressionId(30)
   Leaving function
+  Entering function _P14s16ComparisonsRbEPs2s2E(a : S16 = ExpressionId(31), b : S16 = ExpressionId(32)) -> Bool at :19:5
+    ExpressionId(33) dereference ExpressionId(31) : S16
+    ExpressionId(34) dereference ExpressionId(32) : S16
+    ExpressionId(35) ExpressionId(33) == ExpressionId(34) : Bool
+    ExpressionId(36) dereference ExpressionId(31) : S16
+    ExpressionId(37) sign extend ExpressionId(36) : S16 => S32
+    ExpressionId(38) truncate ExpressionId(37) : S32 => S16
+    ExpressionId(39) dereference ExpressionId(32) : S16
+    ExpressionId(40) ExpressionId(38) == ExpressionId(39) : Bool
+    ExpressionId(41) dereference ExpressionId(31) : S16
+    ExpressionId(42) sign extend ExpressionId(41) : S16 => S32
+    ExpressionId(43) Literal 1 : S32
+    ExpressionId(44) ExpressionId(42) +(S) ExpressionId(43) : S32
+    ExpressionId(45) dereference ExpressionId(32) : S16
+    ExpressionId(46) sign extend ExpressionId(45) : S16 => S32
+    ExpressionId(47) ExpressionId(44) == ExpressionId(46) : Bool
+    Function returning ExpressionId(47)
+  Leaving function
 Leave module ModuleId(1)

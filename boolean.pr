@@ -13,11 +13,13 @@ def u32Comparisons( a : U32, b : U32 ) -> Bool {
 def u16Comparisons( a: U16, b: U16 ) -> Bool {
     a==b;
     expect!U32(a)==b;
-    expect!U32(a+1)==b
+    expect!U32(a+1)==b;
+    a!=b
 }
 
 def s16Comparisons( a: S16, b: S16 ) -> Bool {
     a==b;
     expect!S32(a)==b;
-    expect!S32(a+1)==b
+    expect!S32(a+1)==b;
+    a!=b
 }

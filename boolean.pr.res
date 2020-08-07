@@ -34,24 +34,30 @@ Start module Module: ModuleId(1) at file.pr:1:1
     ExpressionId(28) dereference ExpressionId(15) : U16
     ExpressionId(29) unsign extend ExpressionId(28) : U16 => U32
     ExpressionId(30) ExpressionId(27) == ExpressionId(29) : Bool
-    Function returning ExpressionId(30)
+    ExpressionId(31) dereference ExpressionId(14) : U16
+    ExpressionId(32) dereference ExpressionId(15) : U16
+    ExpressionId(33) ExpressionId(31) != ExpressionId(32) : Bool
+    Function returning ExpressionId(33)
   Leaving function
-  Entering function _P14s16ComparisonsRbEPs2s2E(a : S16 = ExpressionId(31), b : S16 = ExpressionId(32)) -> Bool at :19:5
-    ExpressionId(33) dereference ExpressionId(31) : S16
-    ExpressionId(34) dereference ExpressionId(32) : S16
-    ExpressionId(35) ExpressionId(33) == ExpressionId(34) : Bool
-    ExpressionId(36) dereference ExpressionId(31) : S16
-    ExpressionId(37) sign extend ExpressionId(36) : S16 => S32
-    ExpressionId(38) truncate ExpressionId(37) : S32 => S16
-    ExpressionId(39) dereference ExpressionId(32) : S16
-    ExpressionId(40) ExpressionId(38) == ExpressionId(39) : Bool
-    ExpressionId(41) dereference ExpressionId(31) : S16
-    ExpressionId(42) sign extend ExpressionId(41) : S16 => S32
-    ExpressionId(43) Literal 1 : S32
-    ExpressionId(44) ExpressionId(42) +(S) ExpressionId(43) : S32
-    ExpressionId(45) dereference ExpressionId(32) : S16
-    ExpressionId(46) sign extend ExpressionId(45) : S16 => S32
-    ExpressionId(47) ExpressionId(44) == ExpressionId(46) : Bool
-    Function returning ExpressionId(47)
+  Entering function _P14s16ComparisonsRbEPs2s2E(a : S16 = ExpressionId(34), b : S16 = ExpressionId(35)) -> Bool at :20:5
+    ExpressionId(36) dereference ExpressionId(34) : S16
+    ExpressionId(37) dereference ExpressionId(35) : S16
+    ExpressionId(38) ExpressionId(36) == ExpressionId(37) : Bool
+    ExpressionId(39) dereference ExpressionId(34) : S16
+    ExpressionId(40) sign extend ExpressionId(39) : S16 => S32
+    ExpressionId(41) truncate ExpressionId(40) : S32 => S16
+    ExpressionId(42) dereference ExpressionId(35) : S16
+    ExpressionId(43) ExpressionId(41) == ExpressionId(42) : Bool
+    ExpressionId(44) dereference ExpressionId(34) : S16
+    ExpressionId(45) sign extend ExpressionId(44) : S16 => S32
+    ExpressionId(46) Literal 1 : S32
+    ExpressionId(47) ExpressionId(45) +(S) ExpressionId(46) : S32
+    ExpressionId(48) dereference ExpressionId(35) : S16
+    ExpressionId(49) sign extend ExpressionId(48) : S16 => S32
+    ExpressionId(50) ExpressionId(47) == ExpressionId(49) : Bool
+    ExpressionId(51) dereference ExpressionId(34) : S16
+    ExpressionId(52) dereference ExpressionId(35) : S16
+    ExpressionId(53) ExpressionId(51) != ExpressionId(52) : Bool
+    Function returning ExpressionId(53)
   Leaving function
 Leave module ModuleId(1)

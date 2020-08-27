@@ -81,4 +81,15 @@ Start module Module: ModuleId(1) at file.pr:1:1
     ExpressionId(65) ExpressionId(62) +(S) ExpressionId(64) : S32
     Function returning ExpressionId(65)
   Leaving function
+  Entering function _P7averageRu1EPu1u1E(a : U8 = ExpressionId(66), b : U8 = ExpressionId(67)) -> U8 at :35:5
+    ExpressionId(68) dereference ExpressionId(66) : U8
+    ExpressionId(69) unsign extend ExpressionId(68) : U8 => U16
+    ExpressionId(70) dereference ExpressionId(67) : U8
+    ExpressionId(71) unsign extend ExpressionId(70) : U8 => U16
+    ExpressionId(72) ExpressionId(69) +(U) ExpressionId(71) : U16
+    ExpressionId(73) Literal 2 : U16
+    ExpressionId(74) ExpressionId(72) /(U) ExpressionId(73) : U16
+    ExpressionId(75) truncate ExpressionId(74) : U16 => U8
+    Function returning ExpressionId(75)
+  Leaving function
 Leave module ModuleId(1)

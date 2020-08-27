@@ -31,3 +31,7 @@ def main() -> S32 {
 
     347 + op1() + op2()
 }
+
+def average( a : U8, b : U8 ) -> U8 {
+    expect!U16( (a+b)/2 )
+}

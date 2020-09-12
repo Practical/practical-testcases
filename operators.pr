@@ -35,3 +35,25 @@ def main() -> S32 {
 def average( a : U8, b : U8 ) -> U8 {
     expect!U16( (a+b)/2 )
 }
+
+def noVrpBinaryOps( a: U8, b: U8 ) -> Bool {
+    def eq : Bool = a == b;
+    def ne : Bool = a != b;
+    def lt : Bool = a < b;
+    def le : Bool = a <= b;
+    def gt : Bool = a > b;
+    def ge : Bool = a >= b;
+
+    lt
+}
+
+def noVrpBinaryOps( a: S8, b: S8 ) -> Bool {
+    def eq : Bool = a == b;
+    def ne : Bool = a != b;
+    def lt : Bool = a < b;
+    def le : Bool = a <= b;
+    def gt : Bool = a > b;
+    def ge : Bool = a >= b;
+
+    lt
+}

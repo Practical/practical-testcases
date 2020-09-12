@@ -92,4 +92,72 @@ Start module Module: ModuleId(1) at file.pr:1:1
     ExpressionId(75) truncate ExpressionId(74) : U16 => U8
     Function returning ExpressionId(75)
   Leaving function
+  Entering function _P14noVrpBinaryOpsRbEPu1u1E(a : U8 = ExpressionId(76), b : U8 = ExpressionId(77)) -> Bool at :39:5
+    ExpressionId(84) dereference ExpressionId(76) : U8
+    ExpressionId(85) dereference ExpressionId(77) : U8
+    ExpressionId(86) ExpressionId(84) == ExpressionId(85) : Bool
+    ExpressionId(78) new var eq : Bool
+    Assign ExpressionId(78) <- ExpressionId(86)
+    ExpressionId(87) dereference ExpressionId(76) : U8
+    ExpressionId(88) dereference ExpressionId(77) : U8
+    ExpressionId(89) ExpressionId(87) != ExpressionId(88) : Bool
+    ExpressionId(79) new var ne : Bool
+    Assign ExpressionId(79) <- ExpressionId(89)
+    ExpressionId(90) dereference ExpressionId(76) : U8
+    ExpressionId(91) dereference ExpressionId(77) : U8
+    ExpressionId(92) ExpressionId(90) <(U) ExpressionId(91) : Bool
+    ExpressionId(80) new var lt : Bool
+    Assign ExpressionId(80) <- ExpressionId(92)
+    ExpressionId(93) dereference ExpressionId(76) : U8
+    ExpressionId(94) dereference ExpressionId(77) : U8
+    ExpressionId(95) ExpressionId(93) <=(U) ExpressionId(94) : Bool
+    ExpressionId(81) new var le : Bool
+    Assign ExpressionId(81) <- ExpressionId(95)
+    ExpressionId(96) dereference ExpressionId(76) : U8
+    ExpressionId(97) dereference ExpressionId(77) : U8
+    ExpressionId(98) ExpressionId(96) >(U) ExpressionId(97) : Bool
+    ExpressionId(82) new var gt : Bool
+    Assign ExpressionId(82) <- ExpressionId(98)
+    ExpressionId(99) dereference ExpressionId(76) : U8
+    ExpressionId(100) dereference ExpressionId(77) : U8
+    ExpressionId(101) ExpressionId(99) >=(U) ExpressionId(100) : Bool
+    ExpressionId(83) new var ge : Bool
+    Assign ExpressionId(83) <- ExpressionId(101)
+    ExpressionId(102) dereference ExpressionId(80) : Bool
+    Function returning ExpressionId(102)
+  Leaving function
+  Entering function _P14noVrpBinaryOpsRbEPs1s1E(a : S8 = ExpressionId(103), b : S8 = ExpressionId(104)) -> Bool at :50:5
+    ExpressionId(111) dereference ExpressionId(103) : S8
+    ExpressionId(112) dereference ExpressionId(104) : S8
+    ExpressionId(113) ExpressionId(111) == ExpressionId(112) : Bool
+    ExpressionId(105) new var eq : Bool
+    Assign ExpressionId(105) <- ExpressionId(113)
+    ExpressionId(114) dereference ExpressionId(103) : S8
+    ExpressionId(115) dereference ExpressionId(104) : S8
+    ExpressionId(116) ExpressionId(114) != ExpressionId(115) : Bool
+    ExpressionId(106) new var ne : Bool
+    Assign ExpressionId(106) <- ExpressionId(116)
+    ExpressionId(117) dereference ExpressionId(103) : S8
+    ExpressionId(118) dereference ExpressionId(104) : S8
+    ExpressionId(119) ExpressionId(117) <(S) ExpressionId(118) : Bool
+    ExpressionId(107) new var lt : Bool
+    Assign ExpressionId(107) <- ExpressionId(119)
+    ExpressionId(120) dereference ExpressionId(103) : S8
+    ExpressionId(121) dereference ExpressionId(104) : S8
+    ExpressionId(122) ExpressionId(120) <=(S) ExpressionId(121) : Bool
+    ExpressionId(108) new var le : Bool
+    Assign ExpressionId(108) <- ExpressionId(122)
+    ExpressionId(123) dereference ExpressionId(103) : S8
+    ExpressionId(124) dereference ExpressionId(104) : S8
+    ExpressionId(125) ExpressionId(123) >(S) ExpressionId(124) : Bool
+    ExpressionId(109) new var gt : Bool
+    Assign ExpressionId(109) <- ExpressionId(125)
+    ExpressionId(126) dereference ExpressionId(103) : S8
+    ExpressionId(127) dereference ExpressionId(104) : S8
+    ExpressionId(128) ExpressionId(126) >=(S) ExpressionId(127) : Bool
+    ExpressionId(110) new var ge : Bool
+    Assign ExpressionId(110) <- ExpressionId(128)
+    ExpressionId(129) dereference ExpressionId(107) : Bool
+    Function returning ExpressionId(129)
+  Leaving function
 Leave module ModuleId(1)

@@ -160,4 +160,28 @@ Start module Module: ModuleId(1) at file.pr:1:1
     ExpressionId(129) dereference ExpressionId(107) : Bool
     Function returning ExpressionId(129)
   Leaving function
+  Entering function _P10logicalOpsRbEPbbE(a : Bool = ExpressionId(130), b : Bool = ExpressionId(131)) -> Bool at :61:5
+    ExpressionId(134) dereference ExpressionId(130) : Bool
+    ExpressionId(135) Bool = condition( ExpressionId(134) : false->JumpPointId(1), next->JumpPointId(2)
+    ExpressionId(136) dereference ExpressionId(131) : Bool
+    Condition clause returns ExpressionId(136)
+JumpPointId(1): 
+    ExpressionId(137) Literal false : Bool
+    Condition clause returns ExpressionId(137)
+JumpPointId(2): 
+    ExpressionId(132) new var and : Bool
+    Assign ExpressionId(132) <- ExpressionId(135)
+    ExpressionId(138) dereference ExpressionId(130) : Bool
+    ExpressionId(139) Bool = condition( ExpressionId(138) : false->JumpPointId(3), next->JumpPointId(4)
+    ExpressionId(140) Literal true : Bool
+    Condition clause returns ExpressionId(140)
+JumpPointId(3): 
+    ExpressionId(141) dereference ExpressionId(131) : Bool
+    Condition clause returns ExpressionId(141)
+JumpPointId(4): 
+    ExpressionId(133) new var or : Bool
+    Assign ExpressionId(133) <- ExpressionId(139)
+    ExpressionId(142) dereference ExpressionId(130) : Bool
+    Function returning ExpressionId(142)
+  Leaving function
 Leave module ModuleId(1)

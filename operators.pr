@@ -57,3 +57,10 @@ def noVrpBinaryOps( a: S8, b: S8 ) -> Bool {
 
     lt
 }
+
+def logicalOps( a : Bool, b : Bool ) -> Bool {
+    def and : Bool = a && b;
+    def or : Bool = a || b;
+
+    a
+}

@@ -1,9 +1,8 @@
-def func(arg : Bool) -> Bool {
+def func(a : Bool, b: Bool) -> Bool {
     def yes : Bool = true;
     def no : Bool = false;
-    def maybe : Bool = arg;
 
-    arg
+    a && b || ! a
 }
 
 def u32Comparisons( a : U32, b : U32 ) -> Bool {

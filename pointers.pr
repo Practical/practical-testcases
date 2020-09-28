@@ -1,0 +1,3 @@
+def addressOf( val : S32@ ) -> S32@ {
+    val
+}

@@ -1,13 +1,13 @@
 Start module Module: ModuleId(1) at file.pr:1:1
-  Entering function _P3op1Ru1EPE() -> U8 at :1:5
+  Entering function _P3op1Ru1EPE() -> U8 at 1:5
     ExpressionId(1) Literal 23 : U8
     Function returning ExpressionId(1)
   Leaving function
-  Entering function _P3op2Rs1EPE() -> S8 at :5:5
+  Entering function _P3op2Rs1EPE() -> S8 at 5:5
     ExpressionId(2) Literal 17 : S8
     Function returning ExpressionId(2)
   Leaving function
-  Entering function main() -> S32 at :9:5
+  Entering function main() -> S32 at 9:5
     ExpressionId(11) Literal 35 : S32
     ExpressionId(12) Literal 4 : S32
     ExpressionId(13) ExpressionId(11) +(S) ExpressionId(12) : S32
@@ -81,7 +81,7 @@ Start module Module: ModuleId(1) at file.pr:1:1
     ExpressionId(65) ExpressionId(62) +(S) ExpressionId(64) : S32
     Function returning ExpressionId(65)
   Leaving function
-  Entering function _P7averageRu1EPu1u1E(a : U8 = ExpressionId(66), b : U8 = ExpressionId(67)) -> U8 at :35:5
+  Entering function _P7averageRu1EPu1u1E(a : U8 = ExpressionId(66), b : U8 = ExpressionId(67)) -> U8 at 35:5
     ExpressionId(68) dereference ExpressionId(66) : U8
     ExpressionId(69) unsign extend ExpressionId(68) : U8 => U16
     ExpressionId(70) dereference ExpressionId(67) : U8
@@ -92,7 +92,7 @@ Start module Module: ModuleId(1) at file.pr:1:1
     ExpressionId(75) truncate ExpressionId(74) : U16 => U8
     Function returning ExpressionId(75)
   Leaving function
-  Entering function _P14noVrpBinaryOpsRbEPu1u1E(a : U8 = ExpressionId(76), b : U8 = ExpressionId(77)) -> Bool at :39:5
+  Entering function _P14noVrpBinaryOpsRbEPu1u1E(a : U8 = ExpressionId(76), b : U8 = ExpressionId(77)) -> Bool at 39:5
     ExpressionId(84) dereference ExpressionId(76) : U8
     ExpressionId(85) dereference ExpressionId(77) : U8
     ExpressionId(86) ExpressionId(84) == ExpressionId(85) : Bool
@@ -126,7 +126,7 @@ Start module Module: ModuleId(1) at file.pr:1:1
     ExpressionId(102) dereference ExpressionId(80) : Bool
     Function returning ExpressionId(102)
   Leaving function
-  Entering function _P14noVrpBinaryOpsRbEPs1s1E(a : S8 = ExpressionId(103), b : S8 = ExpressionId(104)) -> Bool at :50:5
+  Entering function _P14noVrpBinaryOpsRbEPs1s1E(a : S8 = ExpressionId(103), b : S8 = ExpressionId(104)) -> Bool at 50:5
     ExpressionId(111) dereference ExpressionId(103) : S8
     ExpressionId(112) dereference ExpressionId(104) : S8
     ExpressionId(113) ExpressionId(111) == ExpressionId(112) : Bool
@@ -160,7 +160,7 @@ Start module Module: ModuleId(1) at file.pr:1:1
     ExpressionId(129) dereference ExpressionId(107) : Bool
     Function returning ExpressionId(129)
   Leaving function
-  Entering function _P10logicalOpsRbEPbbE(a : Bool = ExpressionId(130), b : Bool = ExpressionId(131)) -> Bool at :61:5
+  Entering function _P10logicalOpsRbEPbbE(a : Bool = ExpressionId(130), b : Bool = ExpressionId(131)) -> Bool at 61:5
     ExpressionId(134) dereference ExpressionId(130) : Bool
     ExpressionId(135) Bool = condition( ExpressionId(134) : false->JumpPointId(1), next->JumpPointId(2)
     ExpressionId(136) dereference ExpressionId(131) : Bool

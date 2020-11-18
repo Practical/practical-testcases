@@ -1,5 +1,5 @@
 Start module Module: ModuleId(1) at file.pr:1:1
-  Entering function main() -> S32 at :1:5
+  Entering function main() -> S32 at 1:5
     ExpressionId(4) Literal 7 : S16
     ExpressionId(5) truncate ExpressionId(4) : S16 => S8
     ExpressionId(1) new var var0 : S8

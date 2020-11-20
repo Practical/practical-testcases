@@ -1,3 +1,11 @@
+def addressOf( val : S32 ref ) -> S32@ {
+    val&
+}
+
 def addressOf( val : S32 ) -> S32@ {
     val&
+}
+
+def implicitDereference( val : S32 ref ) -> S32 {
+    val
 }

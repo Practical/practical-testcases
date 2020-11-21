@@ -1,4 +1,5 @@
 Start module Module: ModuleId(1) at file.pr:1:1
+  Forward declare meaningOfLife "_P13meaningOfLifeRu4EPE" as ()->U32
   Entering function _P13meaningOfLifeRu4EPE() -> U32 at 1:5
     ExpressionId(1) Literal true : Bool
     condition( ExpressionId(1) : false->JumpPointId(0), next->JumpPointId(1)

@@ -1,4 +1,6 @@
 Start module Module: ModuleId(1) at file.pr:1:1
+  Forward declare funcCall "_P8funcCallRvEPE" as ()->Void
+  Forward declare main "main" as ()->S32
   Entering function _P8funcCallRvEPE() -> Void at 1:5
     ExpressionId(1) call _P8funcCallRvEPE() : Void
     ExpressionId(2) call _P8funcCallRvEPE() : Void

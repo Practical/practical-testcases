@@ -1,4 +1,7 @@
 Start module Module: ModuleId(1) at file.pr:1:1
+  Forward declare func "_P4funcRs2EPu1E" as (U8)->S16
+  Forward declare main "main" as ()->S32
+  Forward declare func2 "_P5func2Ru4EPE" as ()->U32
   Entering function _P4funcRs2EPu1E(var : U8 = ExpressionId(1)) -> S16 at 6:5
     ExpressionId(2) dereference ExpressionId(1) : U8
     ExpressionId(3) unsign extend ExpressionId(2) : U8 => U16

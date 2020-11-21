@@ -9,3 +9,9 @@ def addressOf( val : S32 ) -> S32@ {
 def implicitDereference( val : S32 ref ) -> S32 {
     val
 }
+
+def main() -> S32 {
+    def var : S32 = 3;
+
+    addressOf(var)@ + 2 // Should return 5
+}

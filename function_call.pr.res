@@ -6,12 +6,19 @@ Start module Module: ModuleId(1) at file.pr:1:1
     Function returning ExpressionId(4)
   Leaving function
   Entering function main() -> S32 at 10:5
-    ExpressionId(6) Literal 17 : U8
+    ExpressionId(7) Literal 17 : U8
     ExpressionId(5) new var var : U8
-    Assign ExpressionId(5) <- ExpressionId(6)
-    ExpressionId(8) dereference ExpressionId(5) : U8
-    ExpressionId(7) call _P4funcRs2EPu1E(ExpressionId(8)) : S16
-    ExpressionId(9) sign extend ExpressionId(7) : S16 => S32
-    Function returning ExpressionId(9)
+    Assign ExpressionId(5) <- ExpressionId(7)
+    ExpressionId(8) call _P5func2Ru4EPE() : U32
+    ExpressionId(6) new var var2 : U32
+    Assign ExpressionId(6) <- ExpressionId(8)
+    ExpressionId(10) dereference ExpressionId(5) : U8
+    ExpressionId(9) call _P4funcRs2EPu1E(ExpressionId(10)) : S16
+    ExpressionId(11) sign extend ExpressionId(9) : S16 => S32
+    Function returning ExpressionId(11)
+  Leaving function
+  Entering function _P5func2Ru4EPE() -> U32 at 16:5
+    ExpressionId(12) Literal 42 : U32
+    Function returning ExpressionId(12)
   Leaving function
 Leave module ModuleId(1)

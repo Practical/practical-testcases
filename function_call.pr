@@ -9,5 +9,10 @@ def func(var: U8) -> S16 {
 
 def main() -> S32 {
     def var : U8 = 17;
+    def var2 : U32 = func2();
     func(var)
+}
+
+def func2() -> U32 {
+    42
 }

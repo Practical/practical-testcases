@@ -15,3 +15,7 @@ def main() -> S32 {
 
     addressOf(var)@ + 2 // Should return 5
 }
+
+def invalidPointer() -> S64@ {
+    null
+}

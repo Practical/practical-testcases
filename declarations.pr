@@ -1,0 +1,10 @@
+decl main() -> S32;
+decl("C") puts( string : C8@ ) -> S32;
+
+def main() -> S32 {
+    if( puts("Hello, world\n")>=0 ) {
+        0
+    } else {
+        1
+    }
+}

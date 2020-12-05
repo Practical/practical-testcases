@@ -1,11 +1,11 @@
 Start module Module: ModuleId(1) at file.pr:1:1
-  Forward declare op1 "_P3op1Ru1EPE" as ()->U8
-  Forward declare op2 "_P3op2Rs1EPE" as ()->S8
-  Forward declare main "main" as ()->S32
-  Forward declare average "_P7averageRu1EPu1u1E" as (U8,U8)->U8
-  Forward declare noVrpBinaryOps "_P14noVrpBinaryOpsRbEPu1u1E" as (U8,U8)->Bool
-  Forward declare noVrpBinaryOps "_P14noVrpBinaryOpsRbEPs1s1E" as (S8,S8)->Bool
   Forward declare logicalOps "_P10logicalOpsRbEPbbE" as (Bool,Bool)->Bool
+  Forward declare noVrpBinaryOps "_P14noVrpBinaryOpsRbEPs1s1E" as (S8,S8)->Bool
+  Forward declare noVrpBinaryOps "_P14noVrpBinaryOpsRbEPu1u1E" as (U8,U8)->Bool
+  Forward declare main "main" as ()->S32
+  Forward declare op1 "_P3op1Ru1EPE" as ()->U8
+  Forward declare average "_P7averageRu1EPu1u1E" as (U8,U8)->U8
+  Forward declare op2 "_P3op2Rs1EPE" as ()->S8
   Entering function _P3op1Ru1EPE() -> U8 at 1:5
     ExpressionId(9) Literal 23 : U8
     Function returning ExpressionId(9)

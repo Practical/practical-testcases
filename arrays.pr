@@ -1,0 +1,2 @@
+def func( array : S64[12] ) -> Void {
+}

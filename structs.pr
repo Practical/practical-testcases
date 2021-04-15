@@ -1,0 +1,4 @@
+struct S {
+    def var1 : U32;
+    def var2 : S32;
+}

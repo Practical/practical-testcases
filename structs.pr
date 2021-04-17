@@ -2,3 +2,7 @@ struct S {
     def var1 : U32;
     def var2 : S32;
 }
+
+def func() -> Void {
+    def s : S;
+}

@@ -17,8 +17,8 @@ Start module Module: ModuleId(1) at file.pr:1:1
     Function returning ExpressionId(6)
   Leaving function
   Entering function main() -> S32 at 13:5
-    ExpressionId(8) Literal 3 : S32
     ExpressionId(7) new var var : S32
+    ExpressionId(8) Literal 3 : S32
     Assign ExpressionId(7) <- ExpressionId(8)
     ExpressionId(9) call _P9addressOfRps4EPrs4E(ExpressionId(7)) : S32@
     ExpressionId(10) dereference ExpressionId(9) : S32

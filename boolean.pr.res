@@ -4,11 +4,11 @@ Start module Module: ModuleId(1) at file.pr:1:1
   Forward declare func "_P4funcRbEPbbE" as (Bool,Bool)->Bool
   Forward declare u32Comparisons "_P14u32ComparisonsRbEPu4u4E" as (U32,U32)->Bool
   Entering function _P4funcRbEPbbE(a : Bool = ExpressionId(1), b : Bool = ExpressionId(2)) -> Bool at 1:5
-    ExpressionId(11) Literal true : Bool
     ExpressionId(9) new var yes : Bool
+    ExpressionId(11) Literal true : Bool
     Assign ExpressionId(9) <- ExpressionId(11)
-    ExpressionId(12) Literal false : Bool
     ExpressionId(10) new var no : Bool
+    ExpressionId(12) Literal false : Bool
     Assign ExpressionId(10) <- ExpressionId(12)
     ExpressionId(13) dereference ExpressionId(1) : Bool
     ExpressionId(14) Bool = condition( ExpressionId(13) : false->JumpPointId(1), next->JumpPointId(2)

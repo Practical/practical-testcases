@@ -3,6 +3,19 @@ struct S {
     def var2 : S32;
 }
 
+struct C {
+    def v : S;
+}
+
+struct A1 {
+    def a2 : A2;
+}
+
+struct A2 {
+    def a1 : A1@;
+}
+
 def func() -> Void {
     def s : S;
+    def c : C;
 }

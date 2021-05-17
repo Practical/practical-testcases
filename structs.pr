@@ -18,4 +18,5 @@ struct A2 {
 def func() -> Void {
     def s : S;
     def c : C;
+    def a1 : A1;
 }

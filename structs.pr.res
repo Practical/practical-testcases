@@ -20,6 +20,7 @@ Start module Module: ModuleId(1) at file.pr:1:1
   Entering function _P4funcRvEPE() -> Void at 18:5
     ExpressionId(1) new var s : Struct S
     ExpressionId(2) new var c : Struct C
+    ExpressionId(3) new var a1 : Struct A1
     Function returning didly squat
   Leaving function
 Leave module ModuleId(1)

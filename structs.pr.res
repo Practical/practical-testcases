@@ -5,9 +5,11 @@ Start module Module: ModuleId(1) at file.pr:1:1
   Forward declare struct Struct C
   Forward declare func "_P4funcRvEPE" as ()->Void
   Define struct A2 {
+    someVar : S64
     a1 : Struct A1@
   }
   Define struct A1 {
+    someVar : U32
     a2 : Struct A2
   }
   Define struct S {
@@ -17,7 +19,7 @@ Start module Module: ModuleId(1) at file.pr:1:1
   Define struct C {
     v : Struct S
   }
-  Entering function _P4funcRvEPE() -> Void at 18:5
+  Entering function _P4funcRvEPE() -> Void at 20:5
     ExpressionId(1) new var s : Struct S
     ExpressionId(2) new var c : Struct C
     ExpressionId(3) new var a1 : Struct A1

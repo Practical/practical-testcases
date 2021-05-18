@@ -8,10 +8,12 @@ struct C {
 }
 
 struct A1 {
+    def someVar : U32;
     def a2 : A2;
 }
 
 struct A2 {
+    def someVar : S64;
     def a1 : A1@;
 }
 

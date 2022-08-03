@@ -1,8 +1,8 @@
 Start module Module: ModuleId(1) at file.pr:1:1
   Forward declare s16Comparisons "_P14s16ComparisonsRbEPs2s2E" as (S16,S16)->Bool
   Forward declare u16Comparisons "_P14u16ComparisonsRbEPu2u2E" as (U16,U16)->Bool
-  Forward declare func "_P4funcRbEPbbE" as (Bool,Bool)->Bool
   Forward declare u32Comparisons "_P14u32ComparisonsRbEPu4u4E" as (U32,U32)->Bool
+  Forward declare func "_P4funcRbEPbbE" as (Bool,Bool)->Bool
   Entering function _P4funcRbEPbbE(a : Bool = ExpressionId(1), b : Bool = ExpressionId(2)) -> Bool at 1:5
     ExpressionId(9) new var yes : Bool
     ExpressionId(11) Literal true : Bool

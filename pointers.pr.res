@@ -1,9 +1,9 @@
 Start module Module: ModuleId(1) at file.pr:1:1
   Forward declare invalidPointer "_P14invalidPointerRps8EPE" as ()->S64@
   Forward declare main "main" as ()->S32
+  Forward declare implicitDereference "_P19implicitDereferenceRs4EPrs4E" as (S32 ref)->S32
   Forward declare addressOf "_P9addressOfRps4EPs4E" as (S32)->S32@
   Forward declare addressOf "_P9addressOfRps4EPrs4E" as (S32 ref)->S32@
-  Forward declare implicitDereference "_P19implicitDereferenceRs4EPrs4E" as (S32 ref)->S32
   Entering function _P9addressOfRps4EPrs4E(val : S32 ref = ExpressionId(1)) -> S32@ at 1:5
     ExpressionId(4) dereference ExpressionId(1) : S32 ref
     Function returning ExpressionId(4)
